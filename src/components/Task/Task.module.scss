@@ -1,0 +1,14 @@
+.text {
+    display: flex;
+    div {
+        display: flex;
+    }
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+.done {
+    composes: text;
+    background-color: green;
+}
+
