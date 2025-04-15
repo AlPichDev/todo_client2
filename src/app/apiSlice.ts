@@ -5,7 +5,7 @@ export let apiSlice = createApi({
     reducerPath: 'api',
     tagTypes: ['Data'],
     baseQuery: fetchBaseQuery({
-        baseUrl: 'https://todoserver2-production.up.railway.app',
+        baseUrl: 'https://todoserver2-production-2b5e.up.railway.app',
     }),
     endpoints: builder => ({
         register: builder.mutation({
