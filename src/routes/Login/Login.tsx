@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useLoginMutation } from "../../app/apiSlice";
-import s from "./Login.module.scss"
 
 export let Login = () => {
   const [password, setPassword] = useState('');

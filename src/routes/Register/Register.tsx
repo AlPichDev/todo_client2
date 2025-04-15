@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useRegisterMutation } from "../../app/apiSlice";
-import s from "./Register.module.scss"
 
 export let Register = () => {
     const [username, setUsername] = useState('');

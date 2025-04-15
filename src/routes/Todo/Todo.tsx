@@ -1,7 +1,6 @@
 import s from "./Todo.module.scss"
 
 export let Todo = () => {
-  console.log(1< 2< 3);
   
   return (
     <>
